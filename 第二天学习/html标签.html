@@ -1,0 +1,73 @@
+1.html标题(逐渐减小)
+  <h1>最大标题1</h1>
+  <h2><标题2/h2>
+  <h3>标题3</h3>
+  <h4>标题4</h4>
+  <h5>标题5</h5>
+  <h6>最小标题6</h6>
+
+2.html段落
+  <p>段落内容</p>
+
+3.html链接
+  <a href="http://www.baidu.com">这个是百度的链接</a>
+  命名锚用法:
+  <a href="#tip">导航到注意事项</a>
+  <p id = "tip">注意事项</p>
+
+4.html图像
+    <img src="xxx.jpg" alt="这是xxx图像">
+
+5. <br>换行标签
+
+6. <body>里面是html文档的主体</body>
+
+属性:
+align = "center"   文本的对齐方式:居中,html5已废弃
+bgcolor = "yellow" 背景的颜色:黄色,html5已废弃
+color = "yellow"   颜色:黄色,html5已废弃
+border = "1"     边框大小
+href = "http://www"  链接地址
+src = "xxx.jpg"   路径,绝对路径和相对路径;
+alt = "" 图片不能正常显示时,作为提示信息;
+class = "classname" 规定元素的类名;
+id = "" 规定元素的唯一 id;
+style = "" 规定元素的行内样式;
+          <h1 style="font-family:verdana">A heading</h1> 
+          <p style="font-family:arial;color:red;font-size:20px;">A paragraph.</p>
+          <h1 style="text-align:center">This is a heading</h1>
+title = ""规定的额外信息,鼠标指向时,额外提示的信息;
+
+7. <hr>一条水平线;(有时,用于分割文章的小结)
+
+8.注释  <!-- 注释-->
+
+9.文本格式化标签
+<b></b>定义粗体文本
+<big></big>定义大号字
+<em></em>定义着重文字
+<i></i>定义斜体字
+<small></small>定义小字号
+<strong></strong>定义加重语气
+<sub></sub>定义下标字
+<sup></sup>定义上标字
+
+10.计算机代码:
+<code> <!--用于输出代码,但不换行,不保留多余空格-->
+  <pre>pre 元素可定义预格式化的文本。被包围在 pre 元素中的文本通常会保留空格和换行符</pre>
+</code>
+
+
+11.样式表(css)
+   11.1 外部样式表
+   <head><link rel="stylesheet" type="text/css" href="mystyle.css"></head>
+   11.2 内部样式表
+   <head>
+    <style type="text/css">
+    body {background-color: red}
+    p {margin-left: 20px}
+    </style>
+    </head>
+    11.3内联样式
+    <p style="color: red; margin-left: 20px">This is a paragraph</p>
+
